@@ -1,5 +1,5 @@
 # Running a GitHub Source Code Analysis
-This project is a web-based code analysis assistant that lets users submit a GitHub repository URL, automatically clones the repo, processes the Python source files using LangChain, and creates embeddings with OpenAI to enable intelligent code-related Q&A. It uses ChromaDB as the vector store and provides a conversational interface powered by a memory-enabled OpenAI chat model.
+This project is a web-based code analysis assistant that lets users submit a GitHub repository URL, automatically clones the repo, processes the Python source files using LangChain, and creates embeddings with OpenAI GPT to enable intelligent code-related Q&A. It uses ChromaDB as the vector store and provides a conversational interface powered by a memory-enabled OpenAI chat model.
 
 ![alt text](image.png)
 
@@ -27,9 +27,9 @@ pip install -r requirements.txt
 
 ### Step 5-: Store Your OpenAI API Key on .env
 ```
-Before starting your application, you'll need to create a .env and inside it
+Before starting your application, you'll need to create a .env and store your API Key
 
-OPENAI_API_KEY = "XXXXXXX"
+OPENAI_API_KEY = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 
 ```
 
